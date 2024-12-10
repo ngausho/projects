@@ -1,0 +1,84 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+* {
+  box-sizing: 10;
+  padding: 0;
+  margin: 0;
+  font-family: 'Mothy Pop One', sans-serif;
+}
+
+body {
+  display: flex column;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 100vh;
+}
+ul {  
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+ul li {
+  position: relative;
+  list-style: none;
+}
+nav ul li a {
+  font-size: 1em;
+  flex-direction: column;
+  letter-spacing: 0.1px;
+  -webkit-text-stroke: 1px rgb(243, 4, 4);
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 10vh;
+  background-color: rgba(3, 71, 71, 0.856);
+}
+footer ul nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 0cm;
+  background-color: rgb(2, 48, 48);
+  font-size: small;
+}
+ul li a:hover::before {
+  inline-size: 100%;
+  filter: drop-shadow(0 0 25px var(--clr))
+}
+ul li a::before {
+  content: attr(data-text);
+  position: absolute;
+  color: var(--clr);
+  inline-size: 0;
+  overflow: hidden;
+  transition: 1s;
+  border-inline-end: 8px solid var(--clr);
+  -webkit-text-stroke: 1px var(--clr);
+}
+ul li a {
+  font-size: 4em;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+ul li {
+  position: relative;
+  list-style: none;
+}
+ul {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+} */
+
+.menu ul{
+  display: flex;
+  color: black;
+}
